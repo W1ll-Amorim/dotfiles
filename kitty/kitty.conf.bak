@@ -1,0 +1,85 @@
+font_family JetBrainsMono Nerd Font Mono
+font_size        11.5
+bold_font        auto
+italic_font      auto
+#thema
+
+include ~/.config/kitty/themes/kanagawa.conf
+
+# Transparência (opcional)
+
+background_opacity 0.85
+
+# Cursor
+
+cursor_shape block
+
+#mouse
+
+clear_all_mouse_actions no
+
+mouse_map right press ungrabbed paste_from_clipboard
+
+mouse_map ctrl+right press ungrabbed copy_to_clipboard
+
+allow_remote_control yes
+
+copy_on_select yes
+
+# Scroll
+
+scrollback_lines 10000
+
+
+#Tamanho da janela ao iniciar
+
+remember_window_size no
+
+initial_window_width 135c
+
+initial_window_height 35c
+
+placement_strategy center
+
+# Esconde a barra de título (fica igual ao Mac)
+
+hide_window_decorations titlebar-only
+#hide_window_decorations yes
+# Adiciona um espaço para o texto não grudar na borda
+
+window_padding_width 8
+
+# Remove a barra grossa, mas mantém uma borda fina
+
+window_border_width 0.5pt
+
+draw_minimal_borders yes
+
+# Tenta usar uma barra de título mais fina e moderna
+linux_display_server x11
+
+# wayland_titlebar_color system
+
+#integração_neovim
+
+enable_audio_bell no
+
+repaint_delay 10
+
+input_delay 3
+
+sync_to_monitor yes
+
+#atalho para neovim
+
+map ctrl+shift+n launch nvim
+
+map ctrl+shift+e launch --cwd=current nvim
+
+mouse_hide_wait 0
+
+map ctrl+shift+v launch --type=overlay nvim
+
+#shell zsh
+
+shell zsh 

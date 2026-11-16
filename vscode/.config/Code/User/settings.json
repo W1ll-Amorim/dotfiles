@@ -1,0 +1,46 @@
+{
+    "workbench.colorTheme": "Darcula - Dark Mode",
+    "window.customTitleBarVisibility": "never",
+    "window.titleBarStyle": "native",
+    "workbench.settings.applyToAllProfiles": [
+    
+
+    ],
+    "explorer.compactFolders": false,
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.executorMap": {
+        
+         "python": "clear && python3 -u"
+    },
+    
+    "code-runner.ignoreSelection": true,
+    "python.terminal.activateEnvironment": false,
+
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
+
+    "terminal.integrated.profiles.linux": {
+        
+        
+           "zsh": {
+            "path": "/usr/bin/zsh"
+        
+        }
+        },
+        "terminal.integrated.defaultProfile.linux": "zsh",
+        "terminal.external.linuxExec": "/usr/bin/kitty",
+    "workbench.startupEditor": "none",
+    "git.autofetch": false,
+    "java.completion.favoriteStaticMembers": [
+        "org.junit.Assert.*",
+        "org.junit.Assume.*",
+        "org.junit.jupiter.api.Assertions.*",
+        "org.junit.jupiter.api.Assumptions.*",
+        "org.junit.jupiter.api.DynamicContainer.*",
+        "org.junit.jupiter.api.DynamicTest.*",
+        "org.mockito.Mockito.*",
+        "org.mockito.ArgumentMatchers.*",
+        "org.mockito.Answers.*"
+    ]
+
+}
